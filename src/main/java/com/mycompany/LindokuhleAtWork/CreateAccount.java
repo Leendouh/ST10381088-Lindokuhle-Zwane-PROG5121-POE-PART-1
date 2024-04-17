@@ -1,4 +1,3 @@
-
 package com.mycompany.LindokuhleAtWork;
 
 import java.util.Scanner;
@@ -44,11 +43,6 @@ public class CreateAccount {
         this.username = username;
         this.password = password;
 
-        /*
-        Your code is mostly correct, but there's a logical issue in your registerUser method. 
-        Using return inside a loop will exit the loop immediately, which doesn't allow the user to re-enter values. 
-        Instead, you need to prompt the user to enter values again inside the loop. Here's the corrected version:
-         */
         Scanner sc = new Scanner(System.in);
         while (!checkUsername()) {
             System.out.println("+++++++++++++++++++++++++++++++++++++++++++++++++");
@@ -65,14 +59,6 @@ public class CreateAccount {
             System.out.print("Enter a password: ");
             this.password = sc.nextLine();
         }
-        /**
-         * The code you provided is correct in terms of registering a user and
-         * logging in. However, there's a logical error in the registerUser
-         * method. After checking the validity of the username and password,
-         * you're closing the Scanner object within the method. This can cause
-         * issues if the same Scanner object is used elsewhere in the program,
-         * especially when trying to read input from the console.
-         */
         System.out.println("+++++++++++++++++++++++++++++++++++++++++++++++++");
         return "Registration successful!";
     }
