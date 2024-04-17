@@ -1,4 +1,4 @@
-**User Registration and Login System**
+**User Registration and Login System** 
 This Java application provides a simple user registration and login system. Users can register by providing their name, surname, username, and password. 
 The system ensures that usernames follow a specific format and that passwords meet certain complexity requirements. Once registered, users can log in using their username and password.
 **Features**
