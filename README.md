@@ -20,4 +20,4 @@ The system ensures that usernames follow a specific format and that passwords me
 -Navigate to the CreateAccountTest class.
 -Run the tests using your IDE's testing functionality.
 6. **Contributing**
-Contributions are welcome! If you find any issues or have suggestions for improvements, please submit an issue or create a pull request.
+-Contributions are welcome! If you find any issues or have suggestions for improvements, please submit an issue or create a pull request.
