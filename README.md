@@ -25,5 +25,8 @@ The system ensures that usernames follow a specific format and that passwords me
 11. **To run the tests:**
 -Navigate to the CreateAccountTest class.
 -Run the tests using your IDE's testing functionality.
-12. **Contributing**
+13. **TO-DO**
+-The user needs to Register into the account by meeting all the requirements, if not the Registration woould not be successful.
+-After the user would be able to login with the same username and password, if not the Login would not be successful. 
+15. **Contributing**
 -Contributions are welcome! If you find any issues or have suggestions for improvements, please submit an issue or create a pull request.
